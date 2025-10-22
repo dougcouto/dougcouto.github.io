@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReaproveitaBH - Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <a href="index.html" class="back-arrow"><i class="fas fa-arrow-left"></i></a>
+            Criar Conta
+        </header>
+
+        <main class="main-content">
+            <form action="mapa.html" method="get">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" class="input-field" placeholder="Digite seu nome completo">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="input-field" placeholder="seuemail@exemplo.com">
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" class="input-field" placeholder="Crie uma senha forte">
+                </div>
+                <div class="form-group">
+                    <label for="confirma-senha">Confirmar Senha</label>
+                    <input type="password" id="confirma-senha" class="input-field" placeholder="Repita sua senha">
+                </div>
+
+                <div class="terms-group">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">Eu li e concordo com os <a href="#">Termos de Serviço</a>.</label>
+                </div>
+                
+                <a href="mapa.html" class="btn btn-primary">CADASTRAR</a>
+            </form>
+            
+            <p class="login-link">
+                Já tem uma conta? <a href="index.html">Faça login</a>
+            </p>
+        </main>
+    </div>
+</body>
+</html>
